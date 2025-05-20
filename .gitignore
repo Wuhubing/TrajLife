@@ -1,6 +1,6 @@
 # Large files
 Miniconda3-latest-Linux-x86_64.sh
-data/*.csv
+data/小哥1120优质500100_20250219164014_wangweibing11_保密信息_请勿外传.csv
 
 # Python
 __pycache__/
@@ -41,6 +41,7 @@ ENV/
 *.swp
 *.swo
 
+# System
 .DS_Store
 .cache
 .conda
@@ -48,5 +49,3 @@ ENV/
 .mypy_cache
 .pytest_cache
 .ruff_cache
-
-小哥1120优质500100_20250219164014_wangweibing11_保密信息_请勿外传.csv
