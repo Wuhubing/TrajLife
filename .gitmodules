@@ -1,0 +1,3 @@
+[submodule "Trajectory-prediction"]
+	path = Trajectory-prediction
+	url = https://github.com/amir-ni/Trajectory-prediction.git

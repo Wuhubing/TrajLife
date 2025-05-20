@@ -1,0 +1,36 @@
+chinese_devices_h3_res7_res7:
+  data_dir: ./data
+  dataset: chinese_devices_h3_res7_res7
+  model_checkpoint_directory: ./models/chinese_devices_h3_res7_res7
+  test_ratio: 0.2
+  validation_ratio: 0.1
+  delimiter: " "
+  batch_size: 32
+  device: cuda
+  max_epochs: 100
+  block_size: 128
+  learning_rate: 0.0006
+  min_input_length: 5
+  max_input_length: 30
+  test_input_length: 5
+  test_prediction_length: 5
+  weight_decay: 0.1
+  beta1: 0.9
+  beta2: 0.95
+  grad_clip: 1.0
+  decay_lr: true
+  warmup_iters: 20
+  lr_decay_iters: 1000
+  min_lr: 0.00006
+  seed: 10
+  n_layer: 10
+  n_head: 16
+  n_embd: 512
+  bias: false
+  dropout: 0.1
+  custom_initialization: false
+  train_from_checkpoint_if_exist: false
+  patience: 10
+  continuity: true
+  beam_width: 64
+  store_predictions: true
