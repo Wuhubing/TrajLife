@@ -1,7 +1,52 @@
+# Large files
 Miniconda3-latest-Linux-x86_64.sh
+data/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
 .ipynb_checkpoints
-.DS_Store
-.vscode
+*.ipynb
+
+# Environment
 .env
 .venv
-.idea
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+.DS_Store
+.cache
+.conda
+.local
+.mypy_cache
+.pytest_cache
+.ruff_cache
+
+小哥1120优质500100_20250219164014_wangweibing11_保密信息_请勿外传.csv
